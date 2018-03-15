@@ -54,8 +54,11 @@
     <Compile Include="ModeloOSI\Apresentacao.cs" />
     <Compile Include="ModeloOSI\Enlace.cs" />
     <Compile Include="ModeloOSI\Fisica.cs" />
+    <Compile Include="ModeloOSI\IMeioDeTransmissao.cs" />
+    <Compile Include="ModeloOSI\MeioDeTransmissao.cs" />
     <Compile Include="ModeloOSI\Rede.cs" />
     <Compile Include="ModeloOSI\Sessao.cs" />
+    <Compile Include="ModeloOSI\TipoMeioDeTransmissao.cs" />
     <Compile Include="ModeloOSI\Transporte.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -8,6 +8,16 @@ namespace ModeloRede.ModeloOSI
     /// </summary>
     public class Rede
     {
+        /// <summary>
+        /// Camada superior
+        /// </summary>
+        public Transporte Transporte { get; set; }
+
+        /// <summary>
+        /// Cada inferior
+        /// </summary>
+        public Enlace Enlace { get; set; }
+
         public IPAddress IpAddress { get; set; }
     }
 }

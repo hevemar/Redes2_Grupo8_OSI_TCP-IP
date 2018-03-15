@@ -6,6 +6,16 @@
     /// </summary>
     public class Transporte
     {
-        
+        /// <summary>
+        /// Camada superior
+        /// </summary>
+        public Sessao Sessao { get; set; }
+
+        /// <summary>
+        /// Camada inferior
+        /// </summary>
+        public Rede Rede { get; set; }
+
+        public string ProtocoloDeComunicacao { get; set; }
     }
 }

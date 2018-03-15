@@ -6,6 +6,14 @@
     /// </summary>
     public class Enlace
     {
-        
+        /// <summary>
+        /// Cada inferior
+        /// </summary>
+        public Fisica Fisica { get; set; }
+
+        /// <summary>
+        /// Cada superior
+        /// </summary>
+        public Rede Rede { get; set; }
     }
 }

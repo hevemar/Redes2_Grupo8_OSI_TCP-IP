@@ -8,6 +8,12 @@ namespace ModeloRede.ModeloOSI
     /// </summary>
     public class Fisica
     {
+        /// <summary>
+        /// Camada superior
+        /// </summary>
+        public Enlace Enlace { get; set; }
+
         public PhysicalAddress MAC { get; set; }
+        public IMeioDeTransmissao MeioDeTransmissao { get; set; }
     }
 }

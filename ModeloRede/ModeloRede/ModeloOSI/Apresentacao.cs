@@ -6,6 +6,14 @@
     /// </summary>
     public class Apresentacao
     {
-        
+        /// <summary>
+        /// Camada superior
+        /// </summary>
+        public Aplicacao Aplicacao { get; set; }
+
+        /// <summary>
+        /// Camada inferior
+        /// </summary>
+        public Sessao Sessao { get; set; }
     }
 }

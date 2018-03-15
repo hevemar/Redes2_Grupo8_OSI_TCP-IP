@@ -6,6 +6,14 @@
     /// </summary>
     public class Sessao
     {
-        
+        /// <summary>
+        /// Camada superior
+        /// </summary>
+        public Apresentacao Apresentacao { get; set; }
+
+        /// <summary>
+        /// Camada inferior
+        /// </summary>
+        public Transporte Transporte { get; set; }
     }
 }
