@@ -1,4 +1,5 @@
-﻿using System.Net.NetworkInformation;
+﻿using System.Diagnostics;
+using System.Net.NetworkInformation;
 
 namespace ModeloRede.ModeloOSI
 {
@@ -15,5 +16,11 @@ namespace ModeloRede.ModeloOSI
 
         public PhysicalAddress MAC { get; set; }
         public IMeioDeTransmissao MeioDeTransmissao { get; set; }
+
+        public void Enviar(string dadosDoPacote)
+        {
+            Debug.Print("Recebendo dado para a camada de Enlace");
+            throw new System.NotImplementedException();
+        }
     }
 }

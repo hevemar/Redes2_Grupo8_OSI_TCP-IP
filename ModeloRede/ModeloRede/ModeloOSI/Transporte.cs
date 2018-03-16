@@ -1,4 +1,6 @@
-﻿namespace ModeloRede.ModeloOSI
+﻿using System.Diagnostics;
+
+namespace ModeloRede.ModeloOSI
 {
     /// <summary>
     /// Camada 4: Transporte
@@ -16,6 +18,13 @@
         /// </summary>
         public Rede Rede { get; set; }
 
-        public string ProtocoloDeComunicacao { get; set; }
+        public string ProtocoloDeComunicacao { get; set; } // TCP/UDP
+
+        public void Enviar(string dadosDoPacote)
+        {
+            Debug.Print("Transporte: Recebendo dado da camada de Sessão");
+            Debug.Print("Transporte: Enviando dado para a camada de Rede");
+            Rede.Enviar(dadosDoPacote);
+        }
     }
 }

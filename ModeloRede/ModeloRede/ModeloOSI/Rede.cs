@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System.Diagnostics;
+using System.Net;
 
 namespace ModeloRede.ModeloOSI
 {
@@ -19,5 +20,12 @@ namespace ModeloRede.ModeloOSI
         public Enlace Enlace { get; set; }
 
         public IPAddress IpAddress { get; set; }
+
+        public void Enviar(string dadosDoPacote)
+        {
+            Debug.Print("Rede: Recebendo dado da camada de Transporte.");
+            Debug.Print("Rede: Enviando dado para a camada de Enlace.");
+            Enlace.Enviar(dadosDoPacote);
+        }
     }
 }

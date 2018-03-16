@@ -1,4 +1,6 @@
-﻿namespace ModeloRede.ModeloOSI
+﻿using System.Diagnostics;
+
+namespace ModeloRede.ModeloOSI
 {
     /// <summary>
     /// Camada 5: Sessão
@@ -15,5 +17,12 @@
         /// Camada inferior
         /// </summary>
         public Transporte Transporte { get; set; }
+
+        public void Enviar(string dadosDoPacote)
+        {
+            Debug.Print("Sessão: Recebendo dado da camada de Apresentação");
+            Debug.Print("Sessão: Enviando dado para a camada de Transporte");
+            Transporte.Enviar(dadosDoPacote);
+        }
     }
 }
