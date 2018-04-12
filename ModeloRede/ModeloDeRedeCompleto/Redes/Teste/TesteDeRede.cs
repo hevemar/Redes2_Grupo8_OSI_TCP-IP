@@ -20,13 +20,13 @@ namespace ModeloDeRede.Redes.Teste
             //Cria um cliente "Notebook"
             var ipNotebook = new Endereco("192.23.23.23");
             var macNotebook = new EnderecoMAC("00.01.02.03.04.05");
-            var portaMackBook = 45;
+            var portaNotebook = 45;
 
             var notebook = new Maquina("Notebook", ipNotebook, macNotebook, mascara);
 
             var clientDNS = notebook.ClienteDNS;
-            Aplicacao client = new AplicacaoCliente(portaMackBook, notebook, clientDNS);
-            notebook.Adicionar(portaMackBook, client);
+            Aplicacao client = new AplicacaoCliente(portaNotebook, notebook, clientDNS);
+            notebook.Adicionar(portaNotebook, client);
 
 
             //Criação dos Servidores

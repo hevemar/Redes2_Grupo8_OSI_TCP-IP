@@ -18,7 +18,7 @@ namespace ModeloDeRede.Redes.Camadas
             var novaMensagem = new Mensagem(cabecalho);
             novaMensagem.Adicionar(mensagem);
 
-            Console.WriteLine($"Eu sou {Nome} e envio {mensagem.Tamanho} bytes: {novaMensagem}");
+            Console.WriteLine($"Eu sou {Nome} e envio {novaMensagem.Tamanho} bytes: {novaMensagem}");
             Console.WriteLine("***** Transmitindo para rede local... *****");
 
             rede.EnviarQuadro(novaMensagem);
