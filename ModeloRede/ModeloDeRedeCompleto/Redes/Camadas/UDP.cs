@@ -2,6 +2,10 @@
 
 namespace ModeloDeRede.Redes.Camadas
 {
+    /// <inheritdoc />
+    /// <summary>
+    /// Implementação da camada 4 - Transporte
+    /// </summary>
     public class UDP : Transporte
     {
         protected override Mensagem GetCabecalho(int portaOrigem, Endereco destino, int portaDestino, Mensagem mensagem)

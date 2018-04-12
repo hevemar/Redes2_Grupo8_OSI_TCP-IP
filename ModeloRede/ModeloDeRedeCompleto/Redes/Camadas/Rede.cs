@@ -4,6 +4,7 @@ namespace ModeloDeRede.Redes.Camadas
 {
     /// <summary>
     /// Camada 3: Rede
+    /// <para>Roteamento de pacotes em uma ou várias redes</para>
     /// </summary>
     public abstract class Rede : Camada
     {

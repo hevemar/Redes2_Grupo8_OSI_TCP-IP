@@ -7,6 +7,8 @@ namespace ModeloDeRede.Redes.Camadas
 {
     /// <summary>
     /// Camada 4: Transporte
+    /// <para>Oferece métodos para a entrega de dados ponto-a-ponto</para>
+    /// <para>Responsável pela transferência de dados entre duas máquinas, independente da aplicação sendo usada, e do tipo, topologia ou configuração das redes físicas existentes entre elas.</para>
     /// </summary>
     public abstract class Transporte : Camada
     {

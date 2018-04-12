@@ -2,6 +2,10 @@
 
 namespace ModeloDeRede.Redes.Camadas
 {
+    /// <summary>
+    /// Camada 2: Enlace de Dados
+    /// <para>Detecção de erros</para>
+    /// </summary>
     public abstract class Enlace : Camada
     {
         protected EnderecoMAC macAddress;

@@ -5,8 +5,10 @@ using ModeloDeRede.Redes.Teste;
 
 namespace ModeloDeRede.Redes.Camadas
 {
+    /// <inheritdoc />
     /// <summary>
     /// Implementação da camada 3 - Rede
+    /// <para>Protocolo de Internet é um protocolo de comunicação usado para encaminhamento de dados.</para>
     /// </summary>
     public class IP : Rede
     {
