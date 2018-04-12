@@ -3,7 +3,7 @@
 namespace ModeloTcpIp.Camada
 {
     /// <summary>
-    /// Camada 3
+    /// Camada 3: Transporte
     /// </summary>
     public class Transporte
     {

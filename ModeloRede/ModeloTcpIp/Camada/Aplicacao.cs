@@ -3,7 +3,8 @@
 namespace ModeloTcpIp.Camada
 {
     /// <summary>
-    /// Camada 4
+    /// Camada 4: Aplicação
+    /// <para>Corresponde as camadas Sessão, Apresentação e Aplicação do modelo OSI</para>
     /// </summary>
     public class Aplicacao
     {

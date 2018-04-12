@@ -3,7 +3,8 @@
 namespace ModeloTcpIp.Camada
 {
     /// <summary>
-    /// Camada 2
+    /// Camada 2: Internet
+    /// <para>Corresponde a camada Rede do Modelo OSI</para>
     /// </summary>
     public class Internet
     {

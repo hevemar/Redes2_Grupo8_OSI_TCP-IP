@@ -2,6 +2,10 @@
 
 namespace ModeloTcpIp.Camada
 {
+    /// <summary>
+    /// Camada 1: Interface de Rede / Rede
+    /// <para>Correspodente a camada Física e Enlace do modelo OSI</para>
+    /// </summary>
     public class InterfaceDeRede
     {
         /// <summary>
