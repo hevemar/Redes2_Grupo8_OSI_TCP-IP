@@ -53,12 +53,12 @@ namespace ModeloDeRede.Redes
                 octetos.Add(new Octeto(letra));
         }
 
-        private void Adicionar(int x)
+        private void Adicionar(int valor)
         {
-            var xForts = x / 128;
-            var xFaibles = x % 128;
-            octetos.Add(new Octeto(xForts));
-            octetos.Add(new Octeto(xFaibles));
+            var a = valor / 128;
+            var b = valor % 128;
+            octetos.Add(new Octeto(a));
+            octetos.Add(new Octeto(b));
         }
 
 
